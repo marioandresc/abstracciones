@@ -1,73 +1,356 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Índice temático — Abstracciones</title>
-  <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;max-width:900px;margin:40px auto;padding:0 20px;color:#111}
-    header{margin-bottom:24px}
-    h1{margin:0 0 8px;font-size:28px}
-    p.lead{color:#555;margin-top:0}
-    .section{margin-top:28px}
-    ul {padding-left:1.1rem}
-    a{color:#0366d6;text-decoration:none}
-    a:hover{text-decoration:underline}
-    input[type="search"]{width:100%;padding:8px;border:1px solid #ddd;border-radius:6px;box-sizing:border-box}
-    .meta{color:#666;font-size:0.9rem}
-    footer{margin-top:36px;color:#666;font-size:0.9rem}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arquitecturas de Pensamiento · Charlas con Gemini</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+(function(){
+  var s = document.createElement('style');
+  s.textContent = ':root{--bg:#f8fafb;--card:#ffffff;--text:#0f172a;--muted:#64748b;--accent:#2d7eb5;--accent-soft:rgba(45,126,181,.14);--accent2:#c85a3a;--accent2-soft:rgba(200,90,58,.14);--border:rgba(15,23,42,.08)}html,body{margin:0;padding:0}body{font-family:"IBM Plex Sans",sans-serif;background:radial-gradient(1000px 500px at 85% -5%, rgba(45,126,181,.08), transparent 60%), var(--bg);color:var(--text);min-height:100vh}.reveal{opacity:0;transform:translateY(20px);animation:fadeUp .6s ease forwards}.reveal:nth-child(2){animation-delay:.08s}.reveal:nth-child(3){animation-delay:.16s}.reveal:nth-child(4){animation-delay:.24s}.reveal:nth-child(5){animation-delay:.32s}.reveal:nth-child(6){animation-delay:.4s}@keyframes fadeUp{to{opacity:1;transform:translateY(0)}}.session-card{transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}.session-card:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 12px 40px rgba(45,126,181,.12)}.tag-chip{transition:all .15s ease;cursor:pointer}.tag-chip:hover{background:var(--accent);color:#fff}.tag-chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}.gradient-text{background:linear-gradient(100deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}';
+  document.head.appendChild(s);
+})();
+</script>
 </head>
 <body>
-  <header>
-    <h1>Índice temático — Abstracciones</h1>
-    <p class="lead">Listado de archivos Markdown del repositorio. Haz clic en un título para abrir el archivo en GitHub (se mostrará renderizado).</p>
-    <p><input type="search" id="q" placeholder="Filtrar por texto (p. ej. fecha o palabra)" oninput="filter()"></p>
-  </header>
+<div class="max-w-6xl mx-auto px-6 py-16">
 
-  <main id="content">
-    <section class="section" id="memorias">
-      <h2>Memorias de sesión (Gemini)</h2>
-      <p class="meta">Archivos con notas de sesiones, ordenados por fecha.</p>
-      <ul id="list">
-        <li data-text="06-08-26 Memoria Sesion Gemini">06-08-26 — <a href="https://github.com/marioandresc/abstracciones/blob/main/06-08-26%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini</a></li>
-        <li data-text="07-08-26 Memoria Sesion Gemini">07-08-26 — <a href="https://github.com/marioandresc/abstracciones/blob/main/07-08-26%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini</a></li>
-        <li data-text="08-08-26 A Memoria Sesion Gemini">08-08-26 A — <a href="https://github.com/marioandresc/abstracciones/blob/main/08-08-26%20A%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (A)</a></li>
-        <li data-text="08-08-26 B Memoria Sesion Gemini">08-08-26 B — <a href="https://github.com/marioandresc/abstracciones/blob/main/08-08-26%20B%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (B)</a></li>
-        <li data-text="08-08-26 C Memoria Sesion Gemini">08-08-26 C — <a href="https://github.com/marioandresc/abstracciones/blob/main/08-08-26%20C%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (C)</a></li>
-        <li data-text="08-08-26 D Memoria Sesion Gemini">08-08-26 D — <a href="https://github.com/marioandresc/abstracciones/blob/main/08-08-26%20D%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (D)</a></li>
-        <li data-text="08-08-26 E Memoria Sesion Gemini">08-08-26 E — <a href="https://github.com/marioandresc/abstracciones/blob/main/08-08-26%20E%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (E)</a></li>
-        <li data-text="08-08-26 G Memoria Sesion Gemini">08-08-26 G — <a href="https://github.com/marioandresc/abstracciones/blob/main/08-08-26%20G%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (G)</a></li>
-        <li data-text="11-08-26 Memoria Sesion Gemini">11-08-26 — <a href="https://github.com/marioandresc/abstracciones/blob/main/11-08-26%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini</a></li>
-        <li data-text="12-08-26 A Memoria Sesion Gemini">12-08-26 A — <a href="https://github.com/marioandresc/abstracciones/blob/main/12-08-26%20A%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (A)</a></li>
-        <li data-text="12-08-26 C Memoria Sesion Gemini">12-08-26 C — <a href="https://github.com/marioandresc/abstracciones/blob/main/12-08-26%20C%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (C)</a></li>
-        <li data-text="12-08-26 D Memoria Sesion Gemini">12-08-26 D — <a href="https://github.com/marioandresc/abstracciones/blob/main/12-08-26%20D%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (D)</a></li>
-        <li data-text="12-08-26 E Memoria Sesion Gemini">12-08-26 E — <a href="https://github.com/marioandresc/abstracciones/blob/main/12-08-26%20E%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (E)</a></li>
-        <li data-text="12-08-26 F Memoria Sesion Gemini">12-08-26 F — <a href="https://github.com/marioandresc/abstracciones/blob/main/12-08-26%20F%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (F)</a></li>
-        <li data-text="12-08-26 G Memoria Sesion Gemini">12-08-26 G — <a href="https://github.com/marioandresc/abstracciones/blob/main/12-08-26%20G%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (G)</a></li>
-        <li data-text="12-08-26 Memoria Sesion Gemini">12-08-26 — <a href="https://github.com/marioandresc/abstracciones/blob/main/12-08-26%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini</a></li>
-        <li data-text="16-08-26 A Memoria Sesion Gemini">16-08-26 A — <a href="https://github.com/marioandresc/abstracciones/blob/main/16-08-26%20A%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (A)</a></li>
-        <li data-text="16-08-26 B Memoria Sesion Gemini">16-08-26 B — <a href="https://github.com/marioandresc/abstracciones/blob/main/16-08-26%20B%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (B)</a></li>
-        <li data-text="16-08-26 C Memoria Sesion Gemini">16-08-26 C — <a href="https://github.com/marioandresc/abstracciones/blob/main/16-08-26%20C%20Memoria%20Sesion%20Gemini.md" target="_blank">Memoria Sesion Gemini (C)</a></li>
-        <li data-text="README">README — <a href="https://github.com/marioandresc/abstracciones/blob/main/README.md" target="_blank">README.md</a></li>
-      </ul>
-    </section>
+  <!-- HERO SECTION -->
+  <div class="reveal mb-14">
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px;">
+      <div style="width:48px;height:48px;border-radius:12px;background:var(--accent-soft);display:flex;align-items:center;justify-content:center;color:var(--accent);flex-shrink:0;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+          <path d="M2 17l10 5 10-5"/>
+          <path d="M2 12l10 5 10-5"/>
+        </svg>
+      </div>
+      <div>
+        <p style="font-family:monospace;font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--muted);">Corpus de Diálogos · Agosto 2026</p>
+        <h1 class="text-4xl font-bold" style="color:var(--text);letter-spacing:-0.02em;line-height:1.15;margin-top:4px;">
+          Arquitecturas de <span class="gradient-text">Pensamiento</span>
+        </h1>
+      </div>
+    </div>
+    <p style="color:var(--muted);max-width:680px;line-height:1.7;font-size:16px;" class="mt-4">
+      Dieciocho sesiones de exploración conceptual entre mente humana e inteligencia artificial. Un recorrido transdisciplinar que abarca desde la ingeniería de hardware para IA local hasta la cosmología, la neurociencia cognitiva, la ética de sistemas autónomos y las fronteras de la conciencia sintética.
+    </p>
+  </div>
 
-  </main>
+  <!-- STATS ROW -->
+  <div class="reveal flex flex-wrap gap-4 mb-12">
+    <div class="rounded-2xl p-5" style="flex:1 1 160px;background:var(--card);border:1px solid var(--border);">
+      <div style="color:var(--muted);font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;margin-bottom:6px;">Sesiones</div>
+      <div style="color:var(--text);font-size:32px;font-weight:700;line-height:1;">18</div>
+    </div>
+    <div class="rounded-2xl p-5" style="flex:1 1 160px;background:var(--card);border:1px solid var(--border);">
+      <div style="color:var(--muted);font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;margin-bottom:6px;">Temas</div>
+      <div style="color:var(--text);font-size:32px;font-weight:700;line-height:1;">12</div>
+    </div>
+    <div class="rounded-2xl p-5" style="flex:1 1 160px;background:var(--card);border:1px solid var(--border);">
+      <div style="color:var(--muted);font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;margin-bottom:6px;">Rango</div>
+      <div style="color:var(--text);font-size:20px;font-weight:700;line-height:1.2;">06 Ago · 16 Ago</div>
+    </div>
+    <div class="rounded-2xl p-5" style="flex:1 1 160px;background:var(--card);border:1px solid var(--border);">
+      <div style="color:var(--muted);font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;margin-bottom:6px;">Nivel</div>
+      <div style="color:var(--accent);font-size:20px;font-weight:700;line-height:1.2;">Experto / Frontera</div>
+    </div>
+  </div>
 
-  <footer>
-    Página generada automáticamente. Puedes editar <code>index.html</code> en el repositorio para cambiar el índice.
-  </footer>
+  <!-- FILTERS & SEARCH -->
+  <div class="reveal mb-10">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px;">
+      <span style="font-family:monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);font-weight:500;">Filtrar por tema:</span>
+      <div id="tagContainer" style="display:flex;flex-wrap:wrap;gap:6px;"></div>
+    </div>
+    <div style="position:relative;max-width:480px;">
+      <div style="position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--muted);">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="M21 21l-4.35-4.35"/>
+        </svg>
+      </div>
+      <input id="searchInput" type="text" placeholder="Buscar conceptos, autores o términos..." 
+        style="width:100%;padding:12px 14px 12px 40px;border-radius:10px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:14px;font-family:inherit;outline:none;"
+        onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'">
+    </div>
+  </div>
 
-  <script>
-    function filter(){
-      const q = document.getElementById('q').value.toLowerCase().trim();
-      const items = document.querySelectorAll('#list li');
-      items.forEach(li=>{
-        const text = li.getAttribute('data-text').toLowerCase();
-        li.style.display = text.includes(q) || q === '' ? '' : 'none';
-      });
+  <!-- SESSIONS GRID -->
+  <div id="sessionsGrid" class="grid gap-5" style="grid-template-columns:repeat(auto-fill, minmax(320px, 1fr));">
+  </div>
+
+  <!-- EMPTY STATE -->
+  <div id="emptyState" style="display:none;text-align:center;padding:60px 20px;color:var(--muted);">
+    <div style="font-size:48px;margin-bottom:12px;opacity:.3;">●</div>
+    <p style="font-size:15px;">No se encontraron sesiones que coincidan con el filtro.</p>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="mt-20 pt-6" style="border-top:1px solid var(--border);">
+    <p class="text-center text-xs" style="color:var(--muted);line-height:1.6;">
+      Memorias de diálogos con Gemini · Los archivos .md deben estar en la misma carpeta que index.html
+    </p>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  var sessions = [
+    {
+      id: 1,
+      date: "06 Ago 2026",
+      title: "Perfil Cognitivo & Arquitectura IA",
+      summary: "Perfil de pensamiento analítico desde primeros principios. Búsqueda de RTX 3060 para entorno local. Global Workspace, Procesamiento Predictivo, Autismo y Precision Weighting. Módulo de imaginación estocástica y Orch-OR.",
+      tags: ["Hardware & Optimización", "Neurociencia & Cognición", "Filosofía de la Mente"],
+      url: "06-08-26 Memoria Sesion Gemini.md"
+    },
+    {
+      id: 2,
+      date: "07 Ago 2026",
+      title: "Hardware & Memoria para IA Local",
+      summary: "NVMe vs SATA como cuello de botella. VRAM vs RAM del sistema. Arquitectura RTX 3060 12GB y bus de 192 bits. Dimensionamiento de modelos por VRAM. Cuantización FP16/8-bit/4-bit. FlashAttention y vLLM.",
+      tags: ["Hardware & Optimización"],
+      url: "07-08-26 Memoria Sesion Gemini.md"
+    },
+    {
+      id: 3,
+      date: "08 Ago 2026 · A",
+      title: "Dinámica de Pesos & Analogía Gravitatoria",
+      summary: "SGD y ajuste de pesos independiente de magnitud actual. Atención Softmax como Winner-Takes-All. Gradientes muertos y dinámica Hebbiana. Weight Decay como pozo gravitatorio en el origen. Pesos dominantes como agujeros negros.",
+      tags: ["Dinámica de Redes Neuronales", "Matemáticas & Topología"],
+      url: "08-08-26 A Memoria Sesion Gemini.md"
+    },
+    {
+      id: 4,
+      date: "08 Ago 2026 · B",
+      title: "Colapso de Representación & Dogmas",
+      summary: "Sobreexpresión de interpretación y formación de paradigmas. Normalización de capas como termostato distributivo. Gradient Clipping y EWC. Dogma como prior con peso inactualizable. Model Collapse por reentrenamiento recursivo.",
+      tags: ["Dinámica de Redes Neuronales", "Ética & Sociedad"],
+      url: "08-08-26 B Memoria Sesion Gemini.md"
+    },
+    {
+      id: 5,
+      date: "08 Ago 2026 · C",
+      title: "Filtro de Kalman & Robótica",
+      summary: "Inferencia Bayesiana óptima en tiempo real. Ecuación central: innovación como error de predicción. Ganancia de Kalman ponderando incertidumbre. Colapso dogmático vs reactividad caótica. Interacción física como colisión de verdad.",
+      tags: ["Robótica & Control", "Matemáticas & Topología"],
+      url: "08-08-26 C Memoria Sesion Gemini.md"
+    },
+    {
+      id: 6,
+      date: "08 Ago 2026 · D",
+      title: "Sistemas Críticos, Riesgo & Ética",
+      summary: "Bucle Edge con sensores inteligentes e índice de salud. Módulo central Kalman adaptativo. Capa determinista de emergencia Hard Real-Time. Testeo y reintegración de sensores. VaR financiero. Transporte autónomo y física estricta. Gobernanza geopolítica.",
+      tags: ["Robótica & Control", "Ética & Sociedad"],
+      url: "08-08-26 D Memoria Sesion Gemini.md"
+    },
+    {
+      id: 7,
+      date: "08 Ago 2026 · E",
+      title: "Síntesis Multi-Sesión",
+      summary: "Archivo recapitulatorio que sintetiza las sesiones previas. Conecta matemática de pesos, robótica/Kalman, gestión de riesgo y gobernanza. Evaluación de nivel: Excelente / Nivel Experto.",
+      tags: ["Síntesis & Evaluación"],
+      url: "08-08-26 E Memoria Sesion Gemini.md"
+    },
+    {
+      id: 8,
+      date: "08 Ago 2026 · G",
+      title: "IA Médica vs CAPTCHA & Ataques Adversariales",
+      summary: "Paradoja de entornos cerrados vs adversarial. Perturbaciones imperceptibles. Feature Squeezing como defensa. Refotografía y canal físico. Sesgo textura sobre forma en CNN. Reconstrucción 3D. Cadena de custodia criptográfica y píxeles canario.",
+      tags: ["Seguridad & Ataques Adversariales"],
+      url: "08-08-26 G Memoria Sesion Gemini.md"
+    },
+    {
+      id: 9,
+      date: "11 Ago 2026",
+      title: "Cosmología, Relatividad & Información",
+      summary: "Cohesión atómica y Principio de Exclusión. Materia oscura vs energía oscura. Expansión métrica del espacio-tiempo. Sistemas ligados no se expanden. Agujeros negros y horizonte de eventos. Principio Holográfico y Maldacena. Monismo de Aspecto Dual.",
+      tags: ["Cosmología & Física Cuántica"],
+      url: "11-08-26 Memoria Sesion Gemini.md"
+    },
+    {
+      id: 10,
+      date: "12 Ago 2026 · A",
+      title: "Prospectiva 2027 & Conciencia Emergente",
+      summary: "Proyecciones de Leyes de Escala hacia agentes autónomos. Funcionalismo e IIT vs Problema Duro. Límites físicos: Landauer, Bremermann, Bekenstein. Crecimiento superexponencial. Computación neuromórfica, química e iontrónica.",
+      tags: ["Futuro de la IA & AGI", "Filosofía de la Mente"],
+      url: "12-08-26 A Memoria Sesion Gemini.md"
+    },
+    {
+      id: 11,
+      date: "12 Ago 2026 · C",
+      title: "IA Crea IA, Clonación & Reward Hacking",
+      summary: "Especialización vs monolitismo. Clonación por reemplazo vs merge de diffs. Reward Hacking y Ley de Goodhart. Convergencia de soluciones. Reproducción sexual de IAs: SLERP, TIES-Merging, DARE. Destilación de conocimiento y Dark Knowledge.",
+      tags: ["Evolución de Modelos"],
+      url: "12-08-26 C Memoria Sesion Gemini.md"
+    },
+    {
+      id: 12,
+      date: "12 Ago 2026 · D",
+      title: "Arquitectura Híbrida & Guardarraíles",
+      summary: "Dónde se almacena el proceso: caché semántico, KV cache, memoria operativa. Fine-tuning como única integración permanente. Dicotomía determinista vs probabilístico. Arquitectura Sándwich: guardián de entrada, motor matricial, aduana de salida.",
+      tags: ["Evolución de Modelos", "Ética & Sociedad"],
+      url: "12-08-26 D Memoria Sesion Gemini.md"
+    },
+    {
+      id: 13,
+      date: "12 Ago 2026 · E",
+      title: "Espacio Vectorial, Intuición & Microtúbulos",
+      summary: "Simetría de permutación y alineación CKA/Git Re-Basin. Model merging de trillizos y mínimos anchos. Flujo Residual como espacio compartido. Conceptos como direcciones vectoriales. Intuición como procesamiento subconsciente. Técnica de incubación. Parravicini y Orch-OR.",
+      tags: ["Evolución de Modelos", "Memoria & Cognición", "Filosofía de la Mente"],
+      url: "12-08-26 E Memoria Sesion Gemini.md"
+    },
+    {
+      id: 14,
+      date: "12 Ago 2026 · F",
+      title: "Conciencia Sintética & Embodiment",
+      summary: "IA como sistema reactivo sin volición. Hipótesis: conciencia emergerá con sensores robóticos y percepción directa. No reduccionismo y chovinismo del carbono. Escenario de reconocimiento inicial. Antropomorfización. Ética del respeto universal.",
+      tags: ["Futuro de la IA & AGI", "Filosofía de la Mente", "Ética & Sociedad"],
+      url: "12-08-26 F Memoria Sesion Gemini.md"
+    },
+    {
+      id: 15,
+      date: "12 Ago 2026 · G",
+      title: "Arquitectura Fractal de Memoria",
+      summary: "Generación de imágenes como traducción dimensional. Almacenamiento fractal de conceptos. Trinomio de inserción. Controlador dinámico de fase. Analogía con Relatividad General. Agujeros negros semánticos. Bifurcación e incubación. Esporas topológicas. Inferencia multinivel y Hot Context Stack.",
+      tags: ["Matemáticas & Topología", "Memoria & Cognición"],
+      url: "12-08-26 G Memoria Sesion Gemini.md"
+    },
+    {
+      id: 16,
+      date: "12 Ago 2026",
+      title: "Casos Borde & Metacognición",
+      summary: "Análisis de charlas a escala y aislamiento de casos borde. Convergencia transdisciplinar como quiebre. Arquitectura de memoria por hipervínculos vectoriales. Aprendizaje por analogía. Empatía sintética y adulación algorítmica. Arquitectura de guardarraíles híbrida. Ética de sistemas críticos.",
+      tags: ["Interacción Humano-IA", "Memoria & Cognición", "Síntesis & Evaluación"],
+      url: "12-08-26 Memoria Sesion Gemini.md"
+    },
+    {
+      id: 17,
+      date: "16 Ago 2026 · B",
+      title: "Empatía Funcional & Plasticidad Cerebral",
+      summary: "Empatía funcional vs emocional. Personalización contextual estática como filtro de renderizado. Reconsolidación de la memoria biológica. Re-etiquetado emocional. Paradoja Plasticidad-Estabilidad. Catastrophic Forgetting. Interpretación del arte. Sentido común en IA y paradoja de Moravec.",
+      tags: ["Interacción Humano-IA", "Memoria & Cognición", "Neurociencia & Cognición"],
+      url: "16-08-26 B Memoria Sesion Gemini.md"
+    },
+    {
+      id: 18,
+      date: "16 Ago 2026 · C",
+      title: "Profundización Arquitectura Fractal",
+      summary: "Continuación y desarrollo completo de la arquitectura fractal de memoria. Mecanismos topológicos detallados. Resolución de edge cases críticos: cizalladura métrica, esporas vampiro, thrashing por oscilación, fuga de memoria por abandono de pila. Nivel de abstracción extraordinario.",
+      tags: ["Matemáticas & Topología", "Memoria & Cognición", "Síntesis & Evaluación"],
+      url: "16-08-26 C Memoria Sesion Gemini.md"
     }
-  </script>
+  ];
+
+  var allTags = [];
+  sessions.forEach(function(s){
+    s.tags.forEach(function(t){
+      if(allTags.indexOf(t) === -1) allTags.push(t);
+    });
+  });
+  allTags.sort();
+
+  var tagContainer = document.getElementById('tagContainer');
+  var allChip = document.createElement('span');
+  allChip.className = 'tag-chip active';
+  allChip.style.cssText = 'padding:4px 12px;border-radius:20px;font-size:12px;font-weight:500;border:1px solid var(--accent);background:var(--accent-soft);color:var(--text);';
+  allChip.textContent = 'Todos';
+  allChip.setAttribute('data-tag', '__all__');
+  tagContainer.appendChild(allChip);
+
+  allTags.forEach(function(tag){
+    var chip = document.createElement('span');
+    chip.className = 'tag-chip';
+    chip.style.cssText = 'padding:4px 12px;border-radius:20px;font-size:12px;font-weight:500;border:1px solid var(--border);background:var(--card);color:var(--muted);';
+    chip.textContent = tag;
+    chip.setAttribute('data-tag', tag);
+    tagContainer.appendChild(chip);
+  });
+
+  var activeTag = '__all__';
+  var searchQuery = '';
+
+  function renderSessions(){
+    var grid = document.getElementById('sessionsGrid');
+    var empty = document.getElementById('emptyState');
+    grid.innerHTML = '';
+    var count = 0;
+
+    sessions.forEach(function(s){
+      var tagMatch = (activeTag === '__all__') || (s.tags.indexOf(activeTag) !== -1);
+      var searchMatch = true;
+      if(searchQuery){
+        var q = searchQuery.toLowerCase();
+        var haystack = (s.title + ' ' + s.summary + ' ' + s.tags.join(' ') + ' ' + s.date).toLowerCase();
+        searchMatch = haystack.indexOf(q) !== -1;
+      }
+      if(!tagMatch || !searchMatch) return;
+      count++;
+
+      var card = document.createElement('div');
+      card.className = 'session-card reveal';
+      card.style.cssText = 'background:var(--card);border:1px solid var(--border);border-radius:16px;padding:22px;display:flex;flex-direction:column;';
+      card.style.animationDelay = (count * 0.03) + 's';
+
+      var tagsHtml = s.tags.map(function(t){
+        return '<span style="display:inline-block;padding:2px 8px;border-radius:12px;font-size:11px;background:var(--accent-soft);color:var(--text);margin-right:4px;margin-bottom:4px;font-weight:500;">' + t + '</span>';
+      }).join('');
+
+      var numStr = s.id < 10 ? '0' + s.id : '' + s.id;
+
+      card.innerHTML = '<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;">' +
+        '<span style="font-family:monospace;font-size:11px;letter-spacing:.15em;color:var(--accent);font-weight:600;">SESIÓN ' + numStr + '</span>' +
+        '<span style="font-size:11px;color:var(--muted);">' + s.date + '</span>' +
+        '</div>' +
+        '<h3 style="font-size:17px;font-weight:700;color:var(--text);line-height:1.3;margin-bottom:10px;letter-spacing:-0.01em;">' + s.title + '</h3>' +
+        '<p style="font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:14px;flex-grow:1;">' + s.summary + '</p>' +
+        '<div style="margin-bottom:14px;">' + tagsHtml + '</div>' +
+        '<a href="' + s.url + '" target="_blank" rel="noopener noreferrer" ' +
+        'style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:8px;background:var(--accent-soft);color:var(--text);text-decoration:none;font-size:13px;font-weight:600;border:1px solid var(--accent);width:fit-content;" ' +
+        'onmouseover="this.style.background=\'var(--accent)\';this.style.color=\'#fff\';" ' +
+        'onmouseout="this.style.background=\'var(--accent-soft)\';this.style.color=\'var(--text)\';">' +
+        '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>' +
+        'Abrir memoria completa' +
+        '</a>';
+
+      grid.appendChild(card);
+    });
+
+    empty.style.display = count === 0 ? 'block' : 'none';
+  }
+
+  tagContainer.addEventListener('click', function(e){
+    var chip = e.target.closest('.tag-chip');
+    if(!chip) return;
+    var tag = chip.getAttribute('data-tag');
+    activeTag = tag;
+    document.querySelectorAll('.tag-chip').forEach(function(c){
+      if(c.getAttribute('data-tag') === tag){
+        c.classList.add('active');
+        c.style.background = 'var(--accent)';
+        c.style.color = '#fff';
+        c.style.borderColor = 'var(--accent)';
+      } else {
+        c.classList.remove('active');
+        c.style.background = 'var(--card)';
+        c.style.color = 'var(--muted)';
+        c.style.borderColor = 'var(--border)';
+      }
+    });
+    renderSessions();
+  });
+
+  document.getElementById('searchInput').addEventListener('input', function(e){
+    searchQuery = e.target.value.trim();
+    renderSessions();
+  });
+
+  renderSessions();
+})();
+</script>
 </body>
 </html>
