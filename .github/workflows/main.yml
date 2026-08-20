@@ -27,10 +27,26 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
+      - name: Prepare site with social and SEO metadata
+        run: |
+          mkdir -p _site
+          cp -r . _site/
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('_site/index.html')
+          s = p.read_text(encoding='utf-8')
+          marker = '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
+          meta = '''\n<meta name="description" content="Arquitecturas de Pensamiento: corpus de diálogos y exploraciones conceptuales entre mente humana e inteligencia artificial." />\n<link rel="canonical" href="https://marioandresc.github.io/abstracciones/" />\n<meta name="theme-color" content="#f8fafb" />\n<meta property="og:type" content="website" />\n<meta property="og:title" content="Arquitecturas de Pensamiento · Charlas con Gemini" />\n<meta property="og:description" content="Dieciocho sesiones de exploración conceptual entre mente humana e inteligencia artificial." />\n<meta property="og:url" content="https://marioandresc.github.io/abstracciones/" />\n<meta property="og:site_name" content="Arquitecturas de Pensamiento" />\n<meta name="twitter:card" content="summary" />\n<meta name="twitter:title" content="Arquitecturas de Pensamiento · Charlas con Gemini" />\n<meta name="twitter:description" content="Corpus de diálogos y exploraciones conceptuales entre mente humana e inteligencia artificial." />\n'''
+          if marker in s and 'og:title' not in s:
+              s = s.replace(marker, marker + meta, 1)
+          p.write_text(s, encoding='utf-8')
+          PY
+          rm -rf _site/.git _site/_site
+
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
       - name: Deploy to GitHub Pages
         id: deployment
