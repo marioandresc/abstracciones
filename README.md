@@ -4,7 +4,7 @@ Durante los últimos meses comencé un experimento que, inicialmente, no tenía 
 
 Simplemente quería conversar con distintos sistemas de inteligencia artificial y explorar qué ocurría cuando una conversación se prolongaba, acumulaba contexto y comenzaba a desarrollar conceptos cada vez más abstractos.
 
-[Arquitecturas de Pensamiento — Corpus de diálogos](https://marioandresc.github.io/abstracciones/index.html)
+[Arquitecturas de Pensamiento — Corpus de diálogos](https://marioandresc.github.io/abstracciones/?utm_source=chatgpt.com)
 
 Con el tiempo apareció una hipótesis que no había formulado al principio:
 
@@ -112,7 +112,7 @@ El resultado es un corpus de diálogos en el que pueden observarse las distintas
 
 He publicado una parte de ese material aquí:
 
-[Arquitecturas de Pensamiento — Corpus de diálogos](https://marioandresc.github.io/abstracciones/index.html)
+[Arquitecturas de Pensamiento — Corpus de diálogos](https://marioandresc.github.io/abstracciones/?utm_source=chatgpt.com)
 
 El sitio permite recorrer las conversaciones y observar cómo determinadas ideas aparecen, se transforman, se combinan y vuelven a aparecer en estados conceptuales diferentes.
 
@@ -281,6 +281,6 @@ Quizás estén en el espacio que se crea entre ambas.
 
 # Casos y conversaciones documentadas
 
-[Arquitecturas de Pensamiento — Corpus de diálogos](https://marioandresc.github.io/abstracciones/index.html)
+[Arquitecturas de Pensamiento — Corpus de diálogos](https://marioandresc.github.io/abstracciones/?utm_source=chatgpt.com)
 
 Esta es una hipótesis basada en observación y experimentación personal, no una afirmación de que haya demostrado conciencia artificial. La intención es abrir una discusión y hacer disponibles los casos para que puedan ser examinados críticamente.
