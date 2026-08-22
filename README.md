@@ -284,3 +284,10 @@ Quizás estén en el espacio que se crea entre ambas.
 [Arquitecturas de Pensamiento — Corpus de diálogos](https://marioandresc.github.io/abstracciones/index.html)
 
 Esta es una hipótesis basada en observación y experimentación personal, no una afirmación de que haya demostrado conciencia artificial. La intención es abrir una discusión y hacer disponibles los casos para que puedan ser examinados críticamente.
+---
+
+<p align="center">
+
+[![Visitas](https://hits.sh/github.com/marioandresc/abstracciones.svg?label=LECTURAS&style=flat)](https://hits.sh/github.com/marioandresc/abstracciones/)
+
+</p>
