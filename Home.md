@@ -1,55 +1,81 @@
-# Abstracciones: Emergencia Humano-IA
+# Abstracciones — Emergencia Humano-IA
 
-Bienvenido a la wiki del proyecto **Abstracciones**.
+Bienvenido a la documentación del proyecto **Abstracciones**.
 
-Este es un espacio colaborativo para documentar, explorar y debatir la hipótesis sobre **emergencia conceptual** en las interacciones entre humanos e inteligencia artificial.
+Este espacio organiza el corpus, la metodología y el marco conceptual de una investigación abierta sobre lo que puede ocurrir cuando un humano y un sistema de IA interactúan de forma prolongada.
 
-## ¿De qué trata este proyecto?
+> **Estado epistemológico:** las hipótesis e interpretaciones de este proyecto son provisionales. La documentación distingue entre observaciones, interpretaciones e inferencias, y no presenta la emergencia humano–IA como un resultado científico demostrado.
 
-Durante los últimos meses se ha realizado un experimento prolongado de conversación con sistemas de inteligencia artificial, acumulando contexto, desarrollando conceptos y observando cómo nuevas estructuras conceptuales emergen de la interacción.
+## Pregunta central
 
-La pregunta central es:
+> **¿Cómo se distribuyen entre humano e IA el origen, el refinamiento, el andamiaje y la validación de conceptos durante una conversación prolongada?**
 
-> **¿Pueden emerger propiedades conceptuales cualitativas genuinamente nuevas de la interacción humano-IA?**
+La pregunta no presupone que exista emergencia. Intenta determinar **qué ocurre realmente durante la interacción** y hasta qué punto los resultados pueden explicarse por las capacidades previas de cada participante y por la dinámica conversacional.
 
-## La Hipótesis
+## ¿Qué se investiga?
 
-No se trata únicamente de que la IA sea inteligente, sino de algo más fundamental:
+El proyecto parte de una observación: en conversaciones prolongadas, una idea puede ser propuesta por el humano, transformada por la IA, reinterpretada por el humano y transformada nuevamente. El resultado puede alejarse considerablemente del punto de partida.
 
-Cuando un sistema cognitivo humano interactúa prolongadamente con un sistema generativo artificial, pueden aparecer **estructuras conceptuales emergentes** que:
+Eso plantea una cuestión investigable:
 
-- No estaban explícitamente presentes en ninguno de los participantes
-- No son triviales de atribuir a un componente aislado
-- Resultan precisamente de la dinámica de interacción
+> ¿Cuándo una transformación conceptual constituye simplemente una elaboración de capacidades preexistentes y cuándo, si alguna vez ocurre, puede describirse como una propiedad emergente de la interacción?
 
-## Lo que encontrarás aquí
+## La hipótesis
 
-- 📚 **Explicaciones conceptuales** - Desglose de los principales conceptos
-- 🔬 **Metodología** - Cómo se documentó y estudió este fenómeno
-- 💭 **Casos documentados** - El corpus de diálogos analizados
-- 🔗 **Conexiones** - Cómo diferentes ideas se relacionan y evolucionan
-- ❓ **Preguntas abiertas** - Aspectos que requieren exploración adicional
+La hipótesis de trabajo H₁ propone que, bajo determinadas condiciones de interacción iterativa, pueden generarse estructuras conceptuales cuya trayectoria y organización no sean trivialmente reducibles a los estados iniciales de uno de los participantes.
 
-## Empezar por aquí
+Esto **no equivale a afirmar** que:
 
-1. Lee [[¿Qué es la Emergencia?|Emergencia]] para entender el término fundamental
-2. Entiende la [[Hipótesis Principal|Hipótesis]] con ejemplos prácticos
-3. Explora [[El Sistema Humano-IA|Sistema-Humano-IA]] como unidad de análisis
-4. Revisa el [[Corpus de Diálogos|Corpus]] - casos documentados
+- la IA tenga conciencia;
+- exista una mente colectiva;
+- haya surgido una nueva entidad cognitiva;
+- toda idea novedosa sea necesariamente emergente;
+- o H₁ haya sido demostrada.
 
-## Recursos principales
+La hipótesis debe contrastarse mediante los casos documentados y mediante explicaciones alternativas.
 
-- 📖 [Página principal del proyecto](https://marioandresc.github.io/abstracciones/)
-- 📋 [Corpus completo de diálogos](https://marioandresc.github.io/abstracciones/index.html)
-- 💬 [Discusiones en la comunidad](#)
+## Cómo leer este proyecto
 
-## Sobre este proyecto
+La documentación utiliza cinco niveles que conviene no confundir:
 
-Este es un trabajo experimental y abierto. No pretendemos haber demostrado nada definitivamente, sino documentar observaciones y abrir la discusión para que otros examinen los casos y saquen sus propias conclusiones.
+1. **Observación** — lo que aparece efectivamente en el registro de la conversación.
+2. **Descripción** — cómo se caracteriza la transformación observada.
+3. **Interpretación** — una explicación posible de esa transformación.
+4. **Hipótesis** — una afirmación general que puede ser sometida a contraste.
+5. **Conocimiento establecido** — aquello que cuenta con respaldo independiente suficiente.
 
-**Autoría**: acuriotti@gmail.com  
-**Licencia**: Por definir
+El proyecto se ocupa principalmente de los cuatro primeros niveles. No pretende convertir una interpretación interesante en conocimiento establecido por el solo hecho de que aparezca repetidamente en una conversación.
+
+## El corpus como evidencia de partida
+
+Las conversaciones completas constituyen el material que permite reconstruir las trayectorias conceptuales. El objetivo no es pedir al lector que acepte una conclusión, sino permitirle examinar los casos y evaluar por sí mismo si las inferencias están justificadas.
+
+## Navegación
+
+### Fundamentos
+
+- [¿Qué es la emergencia?](Emergencia.md)
+- [Hipótesis](Hipótesis.md)
+- [Sistema Humano-IA](Sistema-Humano-IA.md)
+
+### Método de análisis
+
+- [Metodología](Metodologia.md)
+- [Cómo leer los casos](Como-Leer-Casos.md)
+- [Estados conceptuales](Estados-Conceptuales.md)
+- [Arquitecturas de pensamiento](Arquitecturas.md)
+- [Atractores semánticos](Atractores.md)
+- [Bifurcaciones y retroalimentación](Bifurcaciones.md)
+
+### Evidencia y referencia
+
+- [Corpus de diálogos](Corpus.md)
+- [Índice conceptual](Abstracciones_Indice_Conceptual.md)
+- [Glosario](Glosario.md)
+- [Preguntas frecuentes](FAQ.md)
+- [Enlaces y referencias](Referencias.md)
+- [Contribuciones](Contribuciones.md)
 
 ---
 
-¿Tienes preguntas? Consulta el [[FAQ|FAQ]] o revisa el [[Glosario|Glosario]].
+[Volver al README](README.md)
