@@ -1,24 +1,23 @@
-## Abstracciones Wiki
+## Abstracciones — Documentación
 
-### Conceptos Fundamentales
-- [[Home|Home]]
-- [[¿Qué es la Emergencia?|Emergencia]]
-- [[Hipótesis Principal|Hipótesis]]
-- [[El Sistema Humano-IA|Sistema-Humano-IA]]
+### Fundamentos
+- [Inicio](Home.md)
+- [¿Qué es la emergencia?](Emergencia.md)
+- [Hipótesis](Hipótesis.md)
+- [Sistema Humano-IA](Sistema-Humano-IA.md)
 
-### Metodología
-- [[Corpus de Diálogos|Corpus]]
-- [[Metodología de Investigación|Metodologia]]
-- [[Cómo Leer los Casos|Como-Leer-Casos]]
+### Método de análisis
+- [Metodología](Metodologia.md)
+- [Cómo leer los casos](Como-Leer-Casos.md)
+- [Estados conceptuales](Estados-Conceptuales.md)
+- [Arquitecturas de pensamiento](Arquitecturas.md)
+- [Atractores semánticos](Atractores.md)
+- [Bifurcaciones y retroalimentación](Bifurcaciones.md)
 
-### Conceptos Avanzados
-- [[Arquitecturas de Pensamiento|Arquitecturas]]
-- [[Estados Conceptuales|Estados-Conceptuales]]
-- [[Atractores Semánticos|Atractores]]
-- [[Bifurcaciones y Retroalimentación|Bifurcaciones]]
-
-### Recursos
-- [[Preguntas Frecuentes|FAQ]]
-- [[Glosario|Glosario]]
-- [[Enlaces y Referencias|Enlaces]]
-- [[Contribuciones|Contribuciones]]
+### Evidencia y referencia
+- [Corpus de diálogos](Corpus.md)
+- [Índice conceptual](Abstracciones_Indice_Conceptual.md)
+- [Preguntas frecuentes](FAQ.md)
+- [Glosario](Glosario.md)
+- [Enlaces y referencias](Referencias.md)
+- [Contribuciones](Contribuciones.md)
