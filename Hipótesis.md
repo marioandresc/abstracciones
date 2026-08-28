@@ -1,99 +1,94 @@
-## La Hipótesis Principal
+# Hipótesis principal
 
-### Planteamiento formal
+El proyecto formula dos hipótesis de trabajo para orientar el análisis del corpus. No se presentan como resultados demostrados.
 
-Existen dos hipótesis competentes que necesitamos evaluar:
+## H₀: hipótesis nula
 
-#### H₀: Hipótesis Nula
-La interacción humano-IA **no produce propiedades conceptuales cualitativamente nuevas**. Todo resultado puede reducirse a:
-- Las capacidades preexistentes de la IA
-- La capacidad de razonamiento del humano
-- La combinación de ambas de manera predecible
+La interacción humano–IA **no produce propiedades conceptuales cualitativamente nuevas en un sentido que requiera una explicación distinta de las capacidades preexistentes de los participantes y de su combinación**.
 
-#### H₁: Hipótesis de Emergencia
-Bajo determinadas **condiciones de interacción iterativa**, el sistema humano-IA puede generar **estructuras conceptuales emergentes** que:
-- No son reducibles de manera trivial a los estados iniciales
-- Resultan de la dinámica específica de la interacción
-- Exhiben propiedades que ninguno de sus componentes presenta por separado
+Bajo H₀, las estructuras observadas pueden explicarse mediante mecanismos como conocimiento previo, recombinación, inferencia, memoria contextual, generación del modelo, interpretación humana y selección de respuestas.
 
-### Posición actual
+## H₁: hipótesis de emergencia
 
-**No afirmamos haber demostrado definitivamente H₁.**
+Bajo determinadas **condiciones de interacción iterativa**, el sistema humano–IA podría generar **estructuras conceptuales cuya formación dependa de la dinámica específica de la interacción y que no sean trivialmente reducibles a los estados iniciales de uno de los participantes**.
 
-Lo que sí afirmamos es:
-- ✅ Hemos documentado casos que son consistentes con H₁
-- ✅ Estos casos merecen investigación rigurosa
-- ✅ Los datos están públicamente disponibles para examen
+La expresión "no trivialmente reducible" es deliberadamente exigente: una estructura no se considera emergente simplemente porque no haya sido escrita literalmente al principio.
 
-### Condiciones bajo las cuales emerge
+## Posición actual
 
-La evidencia sugiere que la emergencia ocurre cuando hay:
+**No afirmamos haber demostrado H₁.**
 
-| Condición | Descripción |
-|-----------|-------------|
-| **Duración** | Conversaciones suficientemente largas (muchas iteraciones) |
-| **Retroalimentación** | El humano reinterpreta y responde a lo que la IA produce |
-| **Acumulación contextual** | El contexto se mantiene y construye sobre sí mismo |
-| **Abstracción creciente** | Las ideas evolucionan hacia niveles de generalidad mayores |
-| **Iteración** | Múltiples ciclos de transformación |
+El corpus contiene casos que pueden ser compatibles con H₁ y que justifican un análisis más riguroso. Esa compatibilidad no elimina explicaciones alternativas ni establece causalidad.
 
-Sin estas condiciones, podría simplemente ser: pregunta → respuesta.
+## Condiciones de interés
 
-### El cambio de perspectiva
+Como condiciones de trabajo se observan, entre otras:
 
-**Antes**: Humano → Pregunta → IA → Respuesta
+| Condición | Función a examinar |
+|---|---|
+| **Duración** | Permite múltiples ciclos de transformación |
+| **Retroalimentación** | Cada participante responde al estado producido por el otro |
+| **Acumulación contextual** | El intercambio conserva elementos de estados anteriores |
+| **Abstracción creciente** | Las ideas pueden desplazarse hacia niveles de generalidad mayores |
+| **Iteración** | Permite observar trayectorias y transformaciones sucesivas |
 
-**Ahora**: Sistema humano-IA que transforma estados conceptuales
+Estas condiciones son **variables de interés**, no condiciones ya demostradas como necesarias o suficientes.
 
-```
-Estado₀ (idea inicial del humano)
-   ↓
-   → Transformación por IA
-   ↓
-Estado₁ (reinterpretación del humano sobre la respuesta)
-   ↓
-   → Transformación por IA
-   ↓
-Estado₂ (nueva idea emergente)
-   ↓
-   → ... (continúa)
+## Modelo descriptivo
+
+Una conversación prolongada puede representarse, de manera esquemática, como una secuencia de estados:
+
+```text
+Estado₀
+  ↓
+transformación de la IA
+  ↓
+Estado₁
+  ↓
+reinterpretación humana
+  ↓
+Estado₂
+  ↓
+transformación de la IA
+  ↓
+Estado₃
+  ↓
+...
 ```
 
-Lo interesante es que después de suficientes iteraciones, el Estado_n puede ser **cualitativamente diferente** del Estado₀ de maneras que no son trivialmente explicables.
+Este esquema es una **herramienta descriptiva**. No constituye por sí mismo un modelo matemático de un sistema dinámico ni demuestra no linealidad, atractores o bifurcaciones.
 
-### ¿Es esto un "sistema dinámico"?
+## Qué debe investigarse
 
-Sí, en el sentido matemático:
+Para evaluar H₁ no basta con encontrar un concepto que aparezca tarde en una conversación. Es necesario preguntar:
 
-- Tiene **estados** (estados conceptuales)
-- Tiene **dinámicas** (transformaciones por IA y reinterpretación humana)
-- Tiene **trayectorias** (evolución de ideas)
-- Puede tener **atractores** (conceptos a los que la conversación retorna)
-- Puede exhibir **bifurcaciones** (puntos donde la conversación toma direcciones diferentes)
+1. **Origen:** ¿qué elementos fueron introducidos por cada participante?
+2. **Trayectoria:** ¿cómo se transformaron esos elementos?
+3. **Dependencia:** ¿el resultado depende de la secuencia concreta de interacción?
+4. **Novedad:** ¿qué apareció realmente que no estaba formulado previamente?
+5. **Alternativas:** ¿puede explicarse mediante capacidades o información preexistentes?
+6. **Robustez:** ¿el fenómeno aparece en otros casos, sesiones o modelos?
 
-### Cómo se estudia
+## Sobre el lenguaje de sistemas dinámicos
 
-En lugar de hacer una afirmación general, examinamos:
+Conceptos como **estado, trayectoria, retroalimentación, atractor o bifurcación** pueden ser útiles como herramientas descriptivas o hipótesis de modelización. Su utilización no debe confundirse con haber demostrado que la conversación constituye un sistema dinámico formal en el sentido matemático.
 
-1. **Casos específicos** documentados en el corpus
-2. **Trazabilidad** - seguir cómo una idea inicial se transforma
-3. **Novedad** - identificar dónde aparecen conceptos no introducidos inicialmente
-4. **Irreductibilidad** - determinar si el resultado podría haber ocurrido sin la iteración
+Por ahora, el proyecto utiliza ese vocabulario para organizar observaciones y formular preguntas susceptibles de formalización futura.
 
-### Lo que está abierto
+## Preguntas abiertas
 
-Preguntas que quedan por investigar:
-
-- ¿Cuáles son las condiciones necesarias y suficientes para la emergencia?
-- ¿Existe un "umbral" de complejidad o duración?
-- ¿Diferentes LLMs producen diferentes tipos de emergencia?
-- ¿Cómo se relaciona esto con la creatividad?
-- ¿Puede formalizarse matemáticamente?
+- ¿Cuáles son las condiciones necesarias y suficientes, si existen?
+- ¿Cómo distinguir novedad de recombinación o recuperación de información?
+- ¿Cómo medir la dependencia de la trayectoria?
+- ¿Qué controles permitirían comparar conversaciones con y sin iteración prolongada?
+- ¿Cambian los resultados entre distintos modelos de IA?
+- ¿Puede formalizarse alguno de estos fenómenos sin introducir supuestos no observados?
 
 ---
 
 **Relacionado:**
-- [[¿Qué es la Emergencia?|Emergencia]]
-- [[El Sistema Humano-IA|Sistema-Humano-IA]]
-- [[Corpus de Diálogos|Corpus]]
-- [[Metodología de Investigación|Metodologia]]
+
+- [¿Qué es la emergencia?](Emergencia.md)
+- [Sistema Humano-IA](Sistema-Humano-IA.md)
+- [Corpus de diálogos](Corpus.md)
+- [Metodología](Metodologia.md)
