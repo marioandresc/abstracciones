@@ -1,141 +1,135 @@
-## El Sistema Humano-IA como Unidad de Análisis
+# El sistema humano–IA como unidad de análisis
 
-### El cambio conceptual
+## El cambio de perspectiva
 
-En la ciencia tradicional de IA, la unidad de análisis es típicamente:
+Una forma habitual de estudiar la inteligencia artificial consiste en analizar el modelo como sistema aislado: sus capacidades, limitaciones y comportamiento.
 
-```
-La IA como sistema independiente
-↑
-¿Qué tan inteligente es?
-¿Puede resolver problemas?
-¿Puede razonar?
-```
+Este proyecto propone estudiar además **la interacción humano–IA como unidad de observación**.
 
-### La propuesta de este proyecto
+La pregunta pasa de:
 
-Cambiar la unidad de análisis a:
+> ¿Qué puede hacer la IA por sí sola?
 
-```
-La interacción humano-IA como sistema integrado
-↑
-¿Qué propiedades emergen de esta interacción?
-¿Cuál es la dinámica del sistema combinado?
-¿Dónde reside el "espacio conceptual" generado?
-```
+A preguntas como:
 
-### Componentes del sistema
+> ¿Qué transformaciones aparecen durante una secuencia prolongada de interacción?
 
-```
-┌─────────────────────────────────────────┐
-│         SISTEMA HUMANO-IA                │
-├─────────────────────┬───────────────────┤
-│  HUMANO             │  IA                │
-│                     │                    │
-│ • Intuición         │ • Procesamiento    │
-│ • Experiencia       │ • Pattern matching │
-│ • Sesgos            │ • Generación       │
-│ • Creatividad       │ • Transformación   │
-│ • Reflexión         │ • Velocidad        │
-│ • Contexto vital    │ • Escalabilidad    │
-└─────────────────────┴───────────────────┘
-         ↑                    ↑
-         └──── INTERACCIÓN ────┘
-              (retroalimentación
-               iterativa)
-              ↓
-    ┌─────────────────────────┐
-    │ ESPACIO CONCEPTUAL      │
-    │ (donde emerge lo nuevo) │
-    └─────────────────────────┘
+> ¿Qué aporta cada participante en cada etapa?
+
+> ¿Qué parte del resultado depende de la trayectoria conversacional?
+
+Esto es una **propuesta metodológica**, no la afirmación de que la interacción constituya literalmente una nueva entidad cognitiva.
+
+## Componentes observables
+
+```text
+┌─────────────────────────────────────┐
+│          INTERACCIÓN HUMANO–IA      │
+├──────────────────┬──────────────────┤
+│ HUMANO           │ IA               │
+│                  │                  │
+│ • conocimiento   │ • generación     │
+│ • experiencia    │ • transformación │
+│ • intuición      │ • recuperación   │
+│ • interpretación │ • reformulación  │
+│ • selección      │ • variación      │
+└──────────────────┴──────────────────┘
+          ↕ retroalimentación
+          ↕ contexto acumulado
+          ↓
+   trayectoria conversacional
 ```
 
-### Dinámica de interacción
+La tabla no pretende asignar capacidades de manera exhaustiva ni establecer una simetría entre humano e IA. Su función es identificar fuentes posibles de transformación que luego deben rastrearse en los casos.
 
-1. **Fase 1: Proposición**
-   - Humano presenta una idea/pregunta
-   - Estado conceptual: `S₀`
+## Dinámica de interacción
 
-2. **Fase 2: Transformación (IA)**
-   - La IA procesa `S₀`
-   - Genera respuesta/reformulación
-   - Nuevo estado: `S₁ = f(S₀, IA)`
+Como modelo descriptivo, una secuencia puede representarse así:
 
-3. **Fase 3: Reinterpretación (Humano)**
-   - Humano reflexiona sobre la respuesta
-   - Integra con su conocimiento
-   - Agrega nueva perspectiva
-   - Nuevo estado: `S₂ = g(S₁, Humano)`
+1. **Proposición** — el humano introduce una pregunta, idea o problema.
+2. **Transformación** — la IA responde, reformula, combina o desarrolla elementos.
+3. **Reinterpretación** — el humano evalúa la respuesta y modifica su comprensión.
+4. **Nueva transformación** — la IA responde al nuevo estado conversacional.
+5. **Iteración** — el proceso continúa y acumula contexto.
 
-4. **Fase 4: Ciclo**
-   - Volvemos a Fase 2, pero con `S₂` en lugar de `S₀`
-   - La acumulación es clave
+Una representación simplificada sería:
 
-### Por qué es diferente de una simple "herramienta"
+```text
+S₀ → IA → S₁ → Humano → S₂ → IA → S₃ → ...
+```
 
-| Aspecto | Modelo clásico | Sistema Humano-IA |
-|---------|---|---|
-| Flujo | Unidireccional | Bidireccional iterativo |
-| Memoria | Sin acumulación | Contexto acumulativo |
-| Transformación | Lineal | No-lineal |
-| Resultado | Predecible | Emergente (parcialmente) |
-| Responsabilidad | Clara (del humano) | Compartida/ambigua |
+Aquí `S₀`, `S₁`, etc. son **estados conceptuales descriptivos**, no variables de un modelo matemático ya definido.
 
-### Comparación: Otras interacciones
+## ¿Por qué estudiar la interacción?
 
-**Humano-Libro**: 
-- Unidireccional
-- El libro no cambia
-- Sin retroalimentación dinámica
+Una conversación prolongada tiene propiedades observables que una consulta aislada no tiene: secuencia, dependencia contextual, retroalimentación y transformación acumulativa.
 
-**Humano-Humano**:
-- Bidireccional
-- Ambos tienen cuerpos, intenciones, deseos
-- La interacción es simétrica
+Eso permite formular preguntas que no pueden responderse mirando una única respuesta de la IA:
 
-**Humano-IA**:
-- Bidireccional
-- IA no tiene experiencia vital, pero transforma estados conceptuales
-- La interacción es asimétrica pero recíproca
+- ¿De dónde provino una idea?
+- ¿Cuándo cambió de significado?
+- ¿Qué participante introdujo cada elemento?
+- ¿Qué papel tuvo el contexto anterior?
+- ¿El resultado habría aparecido sin determinadas etapas de la interacción?
 
-### Propiedades emergentes posibles
+## Evitar una conclusión anticipada
 
-En este sistema pueden aparecer:
+El proyecto no asume que un resultado generado en la conversación sea automáticamente una propiedad del sistema humano–IA.
 
-✨ **Estructuras conceptuales** que:
-- Ninguno de los participantes "pensó" de manera aislada
-- Resultan precisamente de cómo se transforman mutuamente
+Una idea puede parecer nueva y, sin embargo, ser explicable mediante:
 
-🔄 **Ciclos de retroalimentación** que:
-- Amplifican o atenúan ciertas líneas de pensamiento
-- Generan atractores semánticos (volver a conceptos clave)
+- conocimiento previo del humano;
+- conocimiento o patrones aprendidos por el modelo;
+- recombinación de elementos conocidos;
+- inferencia a partir del contexto;
+- reformulación lingüística;
+- o una combinación de estos mecanismos.
 
-🌿 **Evolución de ideas** que:
-- Siguen patrones no predecibles de antemano
-- Presentan bifurcaciones (decisiones sobre qué explorar)
+Por eso la **atribución** es una parte central del análisis.
 
-### El "espacio entre"
+## El "espacio de interacción"
 
-La pregunta fundamental es:
+La expresión **espacio de interacción** se utiliza aquí para referirse al conjunto de estados, representaciones y transformaciones que se producen en el intercambio.
 
-> ¿Dónde reside la inteligencia en un sistema humano-IA?
-> 
-> ¿En el humano? ¿En la IA? ¿En la interacción? ¿En el espacio entre?
+No implica que exista un espacio físico, una entidad independiente o una mente situada entre el humano y la IA.
 
-Esta proyecto sugiere que algunas propiedades cognitivas pueden residir precisamente en **el espacio de interacción**.
+La pregunta abierta es si algunas regularidades observadas pueden describirse mejor a nivel de la interacción que a nivel de cualquiera de sus componentes por separado.
 
-### Analogía: Ecosistema
+## Comparaciones útiles
 
-- Un humano solo: individuo aislado
-- Una IA sola: herramienta
-- Humano-IA interactuando: **ecosistema** cognitivo
+### Humano–libro
 
-En un ecosistema, las propiedades emergentes (biodiversidad, ciclos biogeoquímicos) no residen en ningún organismo individual. Residen en la interacción.
+Existe intercambio entre lector y contenido, pero el contenido de la fuente no responde ni se adapta durante la lectura.
+
+### Humano–humano
+
+Existe retroalimentación bidireccional y ambos participantes poseen historia, experiencia e intenciones propias.
+
+### Humano–IA
+
+Existe retroalimentación bidireccional y transformación contextual, pero la interacción es asimétrica: la IA genera respuestas sin que este proyecto presuponga experiencia subjetiva, intención propia o conciencia.
+
+Estas comparaciones sirven para identificar diferencias funcionales; no determinan por sí mismas qué tipo de fenómeno emerge, si alguno.
+
+## Propiedades que se investigan
+
+El corpus permite estudiar posibles:
+
+- transformaciones conceptuales;
+- ciclos de retroalimentación;
+- reutilización de conceptos;
+- dependencia del contexto;
+- cambios de dirección o **bifurcaciones** en sentido descriptivo;
+- y posibles patrones recurrentes o **atractores semánticos**.
+
+Estos términos son herramientas de análisis. Su eventual correspondencia con conceptos formales de teoría de sistemas requeriría una modelización adicional.
 
 ---
 
 **Relacionado:**
-- [[¿Qué es la Emergencia?|Emergencia]]
-- [[Hipótesis Principal|Hipótesis]]
-- [[Estados Conceptuales|Estados-Conceptuales]]
-- [[Arquitecturas de Pensamiento|Arquitecturas]]
+
+- [¿Qué es la emergencia?](Emergencia.md)
+- [Hipótesis](Hipótesis.md)
+- [Estados conceptuales](Estados-Conceptuales.md)
+- [Arquitecturas de pensamiento](Arquitecturas.md)
+- [Corpus de diálogos](Corpus.md)
