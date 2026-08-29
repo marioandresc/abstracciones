@@ -14,10 +14,10 @@ Esta Wiki organiza los conceptos, la metodología y el corpus de **Abstracciones
 ### 2. Método de análisis
 - [Metodología](Metodologia.md)
 - [Cómo leer los casos](Como-Leer-Casos.md)
-- [Estados conceptuales](Estados-Conceptuales.md)
-- [Arquitecturas de pensamiento](Arquitecturas.md)
-- [Atractores semánticos](Atractores.md)
-- [Bifurcaciones y retroalimentación](Bifurcaciones.md)
+- [Estados conceptuales](Estados%20Conceptuales.md)
+- [Arquitecturas de pensamiento](Arquitecturas%20de%20Pensamiento.md)
+- [Atractores semánticos](Atractores%20Semánticos.md)
+- [Bifurcaciones y retroalimentación](Bifurcaciones%20y%20Retroalimentación.md)
 
 ### 3. Evidencia y corpus
 - [Corpus de diálogos](Corpus.md)
