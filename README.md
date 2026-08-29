@@ -74,11 +74,11 @@ Un ejemplo sencillo sería una conversación humana.
 
 Una idea puede no existir completamente en la mente de ninguna de las dos personas antes de comenzar a hablar.
 
-Sin embargo, después de una hora de conversación aparece una tercera estructura conceptual compartida.
+Sin embargo, después de una hora de conversación puede aparecer una tercera estructura conceptual compartida.
 
 No necesariamente existe una "mente colectiva".
 
-Pero sí existe algo que antes no existía: el estado conceptual producido por la interacción.
+Pero sí puede existir algo que antes no estaba formulado de esa manera: el estado conceptual producido por la interacción.
 
 Mi hipótesis es que algo semejante puede ocurrir cuando uno de los participantes es una IA.
 
@@ -144,9 +144,7 @@ En muchos casos no parece correcto atribuírsela exclusivamente al humano.
 
 Pero tampoco parece correcto atribuírsela exclusivamente a la IA.
 
-La respuesta más precisa parece ser:
-
-la idea emergió durante el proceso de interacción.
+Una interpretación provisional es que la idea **se fue formando durante el proceso de interacción**.
 
 # Esto plantea una pregunta más profunda
 
@@ -229,7 +227,7 @@ Después de observar numerosos diálogos, mi conclusión provisional no es que h
 
 Es algo más modesto, pero posiblemente más interesante:
 
-la conversación puede convertirse en un sistema generativo en sí mismo.
+la conversación **puede comportarse como un proceso generativo en sí mismo**.
 
 El humano no es simplemente el usuario.
 
@@ -239,7 +237,7 @@ La conversación constituye un proceso de transformación mutua de representacio
 
 Y en determinadas condiciones —duración, retroalimentación, acumulación de contexto y suficiente abstracción— pueden aparecer estructuras conceptuales que no estaban explícitamente definidas al comienzo.
 
-Eso es lo que estoy llamando emergencia humano–IA.
+Eso es lo que estoy llamando emergencia humano–IA: **una hipótesis interpretativa sobre un patrón observado, no una conclusión demostrada.**
 
 # Una hipótesis todavía abierta
 
