@@ -35,4 +35,8 @@ Una cuestión central es determinar hasta qué punto un estado posterior puede e
 
 La diferencia entre `S₀` y `Sₙ` demuestra transformación, pero **no demuestra por sí sola emergencia**. Para sostener una afirmación de emergencia son necesarias definiciones y controles más rigurosos.
 
-[[Arquitecturas de Pensamiento|Arquitecturas]] · [[Hipótesis Principal|Hipótesis]] · [[Metodología de Investigación|Metodologia]]
+**Relacionado:**
+
+- [Arquitecturas de Pensamiento](Arquitecturas%20de%20Pensamiento.md)
+- [Hipótesis](Hipótesis.md)
+- [Metodología](Metodologia.md)
