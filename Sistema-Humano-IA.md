@@ -130,6 +130,6 @@ Estos términos son herramientas de análisis. Su eventual correspondencia con c
 
 - [¿Qué es la emergencia?](Emergencia.md)
 - [Hipótesis](Hipótesis.md)
-- [Estados conceptuales](Estados-Conceptuales.md)
-- [Arquitecturas de pensamiento](Arquitecturas.md)
+- [Estados conceptuales](Estados%20Conceptuales.md)
+- [Arquitecturas de pensamiento](Arquitecturas%20de%20Pensamiento.md)
 - [Corpus de diálogos](Corpus.md)
