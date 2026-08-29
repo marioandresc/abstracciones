@@ -72,5 +72,5 @@ La hipótesis H₁ del proyecto propone que, bajo determinadas condiciones de in
 
 - [Hipótesis](Hipótesis.md)
 - [Sistema Humano-IA](Sistema-Humano-IA.md)
-- [Estados conceptuales](Estados-Conceptuales.md)
+- [Estados conceptuales](Estados%20Conceptuales.md)
 - [Corpus de diálogos](Corpus.md)
