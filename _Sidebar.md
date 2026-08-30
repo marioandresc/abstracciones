@@ -13,6 +13,7 @@
 - [Arquitecturas de pensamiento](Arquitecturas%20de%20Pensamiento.md)
 - [Atractores semánticos](Atractores%20Semánticos.md)
 - [Bifurcaciones y retroalimentación](Bifurcaciones%20y%20Retroalimentación.md)
+- [Estados verificables](wiki/Estados-verificables.md)
 
 ### Evidencia y referencia
 - [Corpus de diálogos](Corpus.md)
