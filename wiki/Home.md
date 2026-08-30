@@ -10,25 +10,35 @@ La pregunta central es:
 
 ### Hipótesis de trabajo
 
-La hipótesis no afirma que una IA tenga conciencia ni que exista una mente colectiva. Propone algo más acotado: bajo determinadas condiciones de interacción iterativa, el sistema humano–IA puede generar estructuras conceptuales emergentes que no estaban explícitamente formuladas al comienzo y cuya atribución exclusiva a uno de los participantes no resulta trivial.
+La hipótesis no afirma que una IA tenga conciencia ni que exista una mente colectiva. Propone algo más acotado: bajo determinadas condiciones de interacción iterativa, el sistema humano–IA podría generar estructuras conceptuales cuya atribución exclusiva a uno de los participantes no resulte trivial.
 
 ### Principio metodológico
 
-El corpus se conserva como evidencia primaria de observación. La interpretación debe poder contrastarse con los diálogos completos y distinguir siempre entre:
+El corpus se conserva como evidencia primaria. La interpretación debe poder contrastarse con los diálogos completos y distinguir siempre entre:
 
 - **observación:** lo que efectivamente aparece en el diálogo;
-- **interpretación:** una explicación posible de ese patrón;
-- **hipótesis:** una proposición todavía abierta a refutación;
+- **interpretación:** una explicación posible;
+- **hipótesis:** una proposición abierta a refutación;
 - **conclusión:** una afirmación respaldada por evidencia suficiente.
 
 ### Estructura de esta documentación
 
 - [Presentación](Presentacion.md)
+- [¿Qué es la emergencia?](Emergencia.md)
 - [Hipótesis](Hipotesis.md)
 - [Metodología](Metodologia.md)
-- [Corpus y casos](Corpus-y-casos.md)
-- [Conceptos](Conceptos.md)
+- [Sistema humano–IA](Sistema-Humano-IA.md)
+- [Cómo leer los casos](Como-Leer-Casos.md)
+- [Estados conceptuales](Estados-Conceptuales.md)
+- [Arquitecturas de pensamiento](Arquitecturas.md)
+- [Atractores semánticos](Atractores.md)
+- [Bifurcaciones y retroalimentación](Bifurcaciones.md)
+- [Corpus de diálogos](Corpus.md)
 - [Estados verificables](Estados-verificables.md)
+- [Glosario](Glosario.md)
+- [Preguntas frecuentes](FAQ.md)
+- [Contribuciones](Contribuciones.md)
+- [Enlaces y referencias](Referencias.md)
 
 ### Fuente primaria
 
