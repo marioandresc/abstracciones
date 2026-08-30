@@ -1,5 +1,7 @@
 Pagina principal en https://marioandresc.github.io/abstracciones/
 
+https://github.com/marioandresc/abstracciones/wiki
+
 Creado por: Mario Andres Curiotti
 
 # ¿Puede emerger algo nuevo de la interacción entre un humano y una IA?   Por acuriotti@gmail.com
