@@ -1,5 +1,7 @@
 Pagina principal en https://marioandresc.github.io/abstracciones/
 
+Creado por: Mario Andres Curiotti
+
 # ¿Puede emerger algo nuevo de la interacción entre un humano y una IA?   Por acuriotti@gmail.com
 
 Durante los últimos meses comencé un experimento que, inicialmente, no tenía como objetivo demostrar nada.
