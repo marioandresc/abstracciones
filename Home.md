@@ -66,6 +66,7 @@ Las conversaciones completas constituyen el material que permite reconstruir las
 - [Arquitecturas de pensamiento](Arquitecturas.md)
 - [Atractores semánticos](Atractores.md)
 - [Bifurcaciones y retroalimentación](Bifurcaciones.md)
+- [Estados verificables](wiki/Estados-verificables.md)
 
 ### Evidencia y referencia
 
